@@ -12,22 +12,23 @@ int main()
     double breathingMastery, swordSharpness;
     char timeOfDay;
 
+    //nhập input
     cin >> slayerLevel >> hp >> breathingMastery >> hasTalisman 
         >> timeOfDay >> demonPresence >> demonRank >> swordSharpness 
         >> allyCount >> bossHP >> totalDamage >> specialMoveReady;
 
+    //định dạng số thập phân
+    cout << fixed << setprecision(1);
+
     //phân cảnh 1
     double power = slayerLevel*10 + hp/(10*1.0) + breathingMastery*50;
-    int a = power; //chuyển qua int xét cho dễ 
-    
     cout << "[Scene 1] Rank: ";
-    if(a < 80)
+    if(power < 80)
         cout << "Novice";
-    else if (a >= 80 && a < 120)
+    else if (power >= 80 && power < 120)
         cout << "Elite";
     else 
         cout << "Hashira";
-    cout << fixed << setprecision(1);
     cout << " (power = " << power << ")\n";
 
     //phân cảnh 2
@@ -43,12 +44,10 @@ int main()
 
     //phân cảnh 3
     double adv = (101 - demonRank*15) + (swordSharpness*0.4) + (allyCount*5);
-    int b = adv; //chuyển qua int xét cho dễ 
-
     cout << "[Scene 3] ";
-    if (b >= 100)
+    if (adv >= 100)
         cout << "Engage head-on ";
-    else if (b >= 60 && b <100)
+    else if (adv >= 60 && adv <100)
         cout << "Harass and probe ";
     else
         cout << "Retreat and regroup ";
@@ -56,7 +55,6 @@ int main()
 
     //phân cảnh 4
     int finalHP = bossHP - totalDamage;
-
     cout << "[Scene 4] ";
     if (finalHP <= 0)
         cout << "Boss defeated! (finalHP = 0)\n";
@@ -67,9 +65,10 @@ int main()
     }
     else
     {
-        cout << "Withdraw to heal.\n";
+        cout << "Withdraw to heal. ";
         cout << "(finalHP = " << finalHP << ")\n";
     }
 
+    //kết thúc chương trình
     return 0;
 }
