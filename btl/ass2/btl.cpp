@@ -9,7 +9,7 @@ string lower(string a);
 bool vow_checked(char b);
 bool cons_checked(char f);
 string vow_1_pron(char e);
-string cons_pron(string s, int x);
+string cons_pron(string s, size_t x);
 bool vow_pair_checked(string y, size_t z);
 bool pair_haw(string v);
 string vow_pair_pron(string r);
@@ -23,7 +23,7 @@ int main()
     string haw_lw = lower(haw);
 
     //check valid-invalid
-    for (int i = 0; i < haw_lw.length() ; i++)
+    for (size_t i = 0; i < haw_lw.length() ; i++)
     {
         if (!vow_checked(haw_lw[i]) && !cons_checked(haw_lw[i]) && (haw_lw[i] != '\'') && (haw_lw[i] != ' '))
         {
@@ -34,7 +34,7 @@ int main()
 
     //convert hawaii -> english
     string conv;
-    for (int j = 0; j < haw_lw.length(); j++)
+    for (size_t j = 0; j < haw_lw.length(); j++)
     {
         char d = haw_lw[j];
         if(vow_pair_checked(haw_lw, j))
@@ -93,8 +93,8 @@ int main()
 //convert upper -> lower
 string lower(string a)
 {
-    int len = a.length();
-    for (int i = 0; i < len; i++)
+    size_t len = a.length();
+    for (size_t i = 0; i < len; i++)
     {
         char c = a[i];
         if(c == '\'')
@@ -132,7 +132,7 @@ bool cons_checked(char f)
 }
 
 //pronounce consonant 
-string cons_pron(string s, int x)
+string cons_pron(string s, size_t x)
 {
     char d = s[x];
     switch(d)
@@ -144,10 +144,12 @@ string cons_pron(string s, int x)
         case 'm': return "m";
         case 'n': return "n";
         case 'w':
-            if(x == 0 || s[x - 1] == 'a' || s[x - 1] == 'u' || s[x - 1] == 'o')
+            if(x == 0 || s[x - 1] == 'a' || s[x - 1] == 'u' || s[x - 1] == 'o' || s[x - 1] == ' ')
                 return "w";
-            else
+            else if (s[x - 1] == 'i' || s[x - 1] == 'e')
                 return "v";
+            else
+                return "w";
     }
     return "";
 }

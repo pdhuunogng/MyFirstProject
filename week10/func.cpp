@@ -9,6 +9,8 @@
     data_type result = name_of_function(param1, param2,...)
 */
 
+//pass by VALUE - change the copied 
+//pass by REFERENCES - change the original 
 
 //local
 /*
