@@ -1,5 +1,5 @@
 #include <iostream>
-
+// married/ divorced/ widowed
 using namespace std;
 
 int main()

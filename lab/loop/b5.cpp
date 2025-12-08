@@ -1,5 +1,5 @@
 #include <iostream>
-
+// đếm số phần tử âm/ dương trong mảng
 using namespace std;
 
 int main()

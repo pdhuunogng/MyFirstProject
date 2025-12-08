@@ -1,10 +1,9 @@
-/*Write and run a program that reads two integers through the keyboard and performs
-
-simple arithmetic operations (i.e., addition, subtraction, multiplication and division) and
-
-displays the results.
-
-Note: when performing division, you must round up the answer to 2 digits and print the answer with only 2 digits after decimal*/
+/*
+Write and run a program that reads two integers through the keyboard and performs
+simple arithmetic operations (i.e., addition, subtraction, multiplication and division) and displays the results.
+Note: 
+when performing division, you must round up the answer to 2 digits and print the answer with only 2 digits after decimal
+*/
 
 #include<iostream>
 #include<iomanip>

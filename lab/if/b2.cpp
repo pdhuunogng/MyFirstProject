@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <iomanip>
-
+// giải phương trình bậc 2, có nghiệm thực
 using namespace std;
 
 int main()

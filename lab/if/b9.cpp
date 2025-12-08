@@ -1,5 +1,5 @@
 #include <iostream>
-
+// xác định số dương/ âm/ không
 using namespace std;
 
 int main()

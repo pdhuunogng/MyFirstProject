@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-
+// xác định tam giác đều/ cân/ vuông / thường
 using namespace std;
 
 int main()

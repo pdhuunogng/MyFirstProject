@@ -77,7 +77,6 @@ int main()
 
     cout << conv <<endl;
     return 0;
-    
 }
 
 

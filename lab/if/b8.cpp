@@ -1,5 +1,5 @@
 #include <iostream>
-
+// xác định số chẵn/ lẻ
 using namespace std;
 
 int main()

@@ -1,5 +1,5 @@
 #include <iostream>
-
+// xếp loại kết quả thi
 using namespace std;
 
 int main()

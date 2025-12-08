@@ -1,6 +1,7 @@
-/*Write a program that asks the user to type two integers A and B ( -100000 ≤ A, B ≤100000) and exchange the
-
-value of A and B. The program should display the new value of A and B.*/
+/*
+Write a program that asks the user to type two integers A and B ( -100000 ≤ A, B ≤100000) 
+and exchange the value of A and B. The program should display the new value of A and B.
+*/
 
 #include<iostream>
 

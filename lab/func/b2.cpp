@@ -1,18 +1,9 @@
 #include <iostream>
-/*Viết một chương trình C++ để tìm lập phương của một số.
-
-Đầu vào:
-
-Một số nguyên dương n (1 ≤ n ≤ 1000)
-
-Đầu ra:
-
-Hàm cube sẽ trả về giá trị lập phương của n.
-
-Lưu ý:
-
-Sinh viên chỉ cần hoàn thiện hàm cube
-
+/*
+Viết một chương trình C++ để tìm lập phương của một số.
+Đầu vào: Một số nguyên dương n (1 ≤ n ≤ 1000)
+Đầu ra: Hàm cube sẽ trả về giá trị lập phương của n.
+Lưu ý: Sinh viên chỉ cần hoàn thiện hàm cube
 */
 using namespace std;
 

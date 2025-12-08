@@ -1,5 +1,5 @@
 #include <iostream>
-
+// tìm số lớn nhất trong 3 số a, b, c
 using namespace std;
 
 int main()

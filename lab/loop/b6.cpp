@@ -1,13 +1,14 @@
 #include <iostream>
-/*The Fibonacci sequence is 0, 1, 1, 2, 3, 5, 8, 13,…, where the first two terms are 0 and 1, and each term thereafter is the sum of the two preceding terms, that is, Fibn=Fibn−1+Fibn−2
-.
-Using this information, write a program that calculates the nth number in a Fibonacci sequence, where n is entered into the program by the user.
-
+/*The Fibonacci sequence is 0, 1, 1, 2, 3, 5, 8, 13,…, where the first two terms are 0 and 1, 
+and each term thereafter is the sum of the two preceding terms, that is, 
+Fibn=Fibn−1+Fibn−2.
+Using this information, write a program that calculates the nth number in a Fibonacci sequence, 
+where n is entered into the program by the user.
 Input: 
-
 Integer n, 90 >= n >= 1
 Output:
-The calculated value*/
+The calculated value
+*/
 using namespace std;
 
 int main()

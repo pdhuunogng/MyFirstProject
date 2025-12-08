@@ -1,14 +1,17 @@
 #include<iostream>
 #include<iomanip>
 #include<string.h>
-/*Include into the above program the code that performs two tasks: 
-
+/*
+Include into the above program the code that performs two tasks: 
 a. Displaying data of n students in the following format:
-
-5 columns, each column separate from the next to the right by exactly 20 characters, starting with the value and space characters to fill the rest, no space character and 1 newline character after last value of line
+5 columns, each column separate from the next to the right by exactly 20 characters, 
+starting with the value and space characters to fill the rest, no space character and 
+1 newline character after last value of line
 The first line will be the name of each column, respectively: Name, Rollno, Sex, Height, Weight
 Output value, if float, is rounded up to 2 digits after decimal point
-b. Computing and displaying the average of heights and the average of weights of the students, round up to 5 digits after decimal point, separated by 1 space character, no character after last value.*/
+b. Computing and displaying the average of heights and the average of weights of the students, 
+round up to 5 digits after decimal point, separated by 1 space character, no character after last value.
+*/
 using namespace std;
 
 const int MAX = 100;

@@ -1,5 +1,5 @@
 #include <iostream>
-
+// xác định góc thuộc phần I/ II/ III/ IV
 using namespace std;
 
 int main()

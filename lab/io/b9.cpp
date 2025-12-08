@@ -1,23 +1,14 @@
-/*Given a function:
-
-F(x)=ax2+bx+c
-
+/*
+Given a function: F(x)=ax2+bx+c
 Write and run a program that performs the following steps:
-
 - Reading the value of a, b and c from the keyboard.
-
 - Solving F(x)=0
- ( assume that the equation has two real distinct solutions x1
- and x2
- ).
-
-- Displaying x1
- and x2
- .
-
+ (assume that the equation has two real distinct solutions x1
+ and x2)
+- Displaying x1 and x2
 Input: One line contains 3 integers a, b, c (-100 ≤ a, b, c ≤ 100)
-
-Output:  Round up the answer to 2 digits after decimal*/
+Output:  Round up the answer to 2 digits after decimal
+*/
 
 #include <iostream>
 #include <cmath>
@@ -37,6 +28,11 @@ int main()
         cout <<fixed << setprecision(2);
         cout << "X1= "<< x1 <<endl;
         cout << "X2= "<< x2 <<endl;
+    }
+    else if(del == 0)
+    {
+        x1 = (-1.0*b)/(2*a);
+        cout << "X= " << x1 <<endl;
     }
     return 0;
 }

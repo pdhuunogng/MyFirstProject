@@ -1,14 +1,10 @@
 #include <iostream>
 #include <cmath>
-/*Viết một chương trình C++ để in tất cả các số nguyên tố trong một khoảng [lower, upper] cho trước
-
-Đầu vào:
-
-2 số nguyên lower, upper (0 ≤ lower, upper ≤ 1000)
-
-Đầu ra:
-
-Các số nguyên tố trong khoảng [lower, upper]. Mỗi số nguyên tố cách nhau một khoảng trắng. */
+/*
+Viết một chương trình C++ để in tất cả các số nguyên tố trong một khoảng [lower, upper] cho trước
+Đầu vào: 2 số nguyên lower, upper (0 ≤ lower, upper ≤ 1000)
+Đầu ra: Các số nguyên tố trong khoảng [lower, upper]. Mỗi số nguyên tố cách nhau một khoảng trắng. 
+*/
 using namespace std;
 
 void printPrimes(int lower, int upper)

@@ -1,18 +1,12 @@
 #include <iostream>
 #include <math.h>
-/*Viết một chương trình C++ dùng để tính đường kính, chu vi và diện tích của một hình tròn.
-
-Đầu vào:
-
-Bán kính là một biến radius kiểu double
-
-Đầu ra:
-
-Các hàm getDiameter, getCircumference, getArea lần lượt trả về đường kính, chu vi, và diện tích của đường tròn ứng với bán kính vừa cho
-
-Lưu ý:
-
-Sinh viên chỉ hiện thực getDiameter, getCircumference, getArea . Sinh viên có thể hiện thực thêm các hàm khác để hỗ trợ. Cho PI =3.14*/
+/*
+Viết một chương trình C++ dùng để tính đường kính, chu vi và diện tích của một hình tròn.
+Đầu vào: Bán kính là một biến radius kiểu double
+Đầu ra: Các hàm getDiameter, getCircumference, getArea lần lượt trả về đường kính, chu vi, và diện tích của đường tròn ứng với bán kính vừa cho
+Lưu ý: Sinh viên chỉ hiện thực getDiameter, getCircumference, getArea . 
+Sinh viên có thể hiện thực thêm các hàm khác để hỗ trợ. Cho PI =3.14
+*/
 using namespace std;
 float pi = 3.14;
 

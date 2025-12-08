@@ -1,18 +1,16 @@
 #include <iostream>
 #include <iomanip>
-/*Write a program that computes and prints x raised to the power n and power -n by repetitive multiplication.
-
+/*
+Write a program that computes and prints x raised to the power n and power -n by repetitive multiplication.
 Input:
-
 The first line contains integer n, n >= 0
-The second line contains real numbers x
-, x≠0
+The second line contains real numbers x, x≠0
 Output:
-xn
- x−n
+x^n x^−n
 Note: 
 Each value in output round up to 2 digits after decimal point, separated by 1 space character and no character after last value
-Do not use cmath or math.h library*/
+Do not use cmath or math.h library
+*/
 using namespace std;
 
 int main()
@@ -35,8 +33,22 @@ int main()
         b *= 1/x;
     }
 
+    //double aa = a*1000;
+    //double bb = b*1000;
+    int aaa = a*1000;
+    int bbb = b*1000;
+    if(aaa %10 >= 5)
+    {
+        aaa += 10;
+    }
+    aaa /= 10;
+    if(bbb %10 >= 5)
+    {
+        bbb += 10;   
+    }
+    bbb /= 10;
     cout << fixed << setprecision(2);
-    cout << a << " " << b <<endl;
+    cout << (double)aaa/100 << " " << (double)bbb/100 <<endl;
 
     return 0;
 }

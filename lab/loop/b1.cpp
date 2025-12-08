@@ -1,13 +1,14 @@
 #include <iostream>
 #include <iomanip>
-/*Write a program that inputs an array of N real numbers, and then computes and prints the average value of the array elements. N should be an input parameter.
-
+/*
+Write a program that inputs an array of N real numbers, and then computes and prints 
+the average value of the array elements. N should be an input parameter.
 Input:
-
 The first line contains integer N, N >= 1
 The second line contains N real numbers
 Output:
-The average value of the array elements, round up to 2 digits after decimal point*/
+The average value of the array elements, round up to 2 digits after decimal point
+*/
 using namespace std;
 
 int main()

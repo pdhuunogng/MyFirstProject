@@ -1,8 +1,8 @@
-/*Write and run a program that reads the name, age, sex, height and weight of a student
-
+/*
+Write and run a program that reads the name, age, sex, height and weight of a student
 and displays with proper heading for each variable.
-
-Given that type of name and sex is string, type of age and weight is int, type of height is float.*/
+Given that type of name and sex is string, type of age and weight is int, type of height is float.
+*/
 
 #include<iostream>
 #include<iomanip>

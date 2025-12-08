@@ -1,20 +1,16 @@
 #include <iostream>
 #include <cmath>
-/*Viết một chương trình C++ để kiểm tra xem một số có phải số nguyên tố hay không.
-
-Đầu vào:
-
-Một số nguyên không âm n (0 ≤ n ≤ 1 000 000)
-
-Đầu ra:
-
-Nếu n là số nguyên tố thì hàm checkPrimeNumber sẽ trả về true, ngược lại trả về false*/
+/*
+Viết một chương trình C++ để kiểm tra xem một số có phải số nguyên tố hay không.
+Đầu vào: Một số nguyên không âm n (0 ≤ n ≤ 1 000 000)
+Đầu ra: Nếu n là số nguyên tố thì hàm checkPrimeNumber sẽ trả về true, ngược lại trả về false
+*/
 using namespace std;
 
 bool checkPrimeNumber(int n) {
     if (n < 2)
         return false;
-    for (int i = 2; i <= n; i++)
+    for (int i = 2; i <= sqrt(n); i++)
     {
         if (n%i == 0)
             return false;

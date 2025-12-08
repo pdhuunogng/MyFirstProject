@@ -1,4 +1,7 @@
-/*Write a program that asks the user to type 5 integers (the value of 5 integers are in range [-1000000; 1000000]) and writes the average of the 5 integers. This program uses only 2 variables. */
+/*
+Write a program that asks the user to type 5 integers (the value of 5 integers are in range [-1000000; 1000000]) 
+and writes the average of the 5 integers. This program uses only 2 variables. 
+*/
 #include<iostream>
 #include<iomanip>
 using namespace std;

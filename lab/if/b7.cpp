@@ -1,5 +1,5 @@
 #include <iostream>
-
+// xác định năm nhuận/ không nhuận
 using namespace std;
 
 int main()
