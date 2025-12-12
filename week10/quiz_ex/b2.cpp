@@ -1,5 +1,6 @@
 #include <iostream>
-
+#include <iomanip>
+// read N and read N student's scores -> print the average 
 using namespace std;
 
 int main()
@@ -16,6 +17,7 @@ int main()
         sum += a[i];
     }
 
+    cout << fixed << setprecision(2);
     cout << "diem trung binh: "<< (sum*1.0)/N <<endl;
     return 0;
 }
